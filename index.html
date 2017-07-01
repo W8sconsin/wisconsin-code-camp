@@ -9,7 +9,7 @@
   <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-blue-grey.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">
   <style type="text/css">
-    .inquiry-button{
+    .modal-button{
       background-color: #ccc;
     }
   </style>
@@ -46,12 +46,14 @@
         <span onclick="document.getElementById('id01').style.display='none'"
         class="w3-button w3-display-topright">×</span>
         <h4>We are a group of Wisconsin coders</h4>
-        <h5>Who help each other develop professionally</h5>
-        <h5>And facilitate code learning events around the state.</h5>
+        <h5>who help each other develop professionally</h5>
+        <h5>and facilitate code learning events around the state.</h5>
       </header>
       <div class="w3-padding">
+        <p>Want to see our schedule of upcoming events?</p>
+        <p>Check out our <a class="w3-btn modal-button" onclick="document.getElementById('id01').style.display='none'" href="index.html#events-calendar">events calendar</a></p>
         <p>Want to inquire about having an event in your area?</p>
-        <p>Fill out our <a class="w3-btn inquiry-button" href="resume.html#inquiry-form">inquiry form</a> to learn more!</p>
+        <p>Fill out our <a class="w3-btn modal-button" onclick="document.getElementById('id01').style.display='none'" href="index.html#inquiry-form">inquiry form</a></p>
       </div>
       <footer class="w3-container w3-theme-l1">
         <p></p>
@@ -185,7 +187,7 @@
 </footer>
 
 <hr>
-<div class="w3-center">
+<div class="w3-center" id="events-calendar">
   <h2>Color Themes</h2>
   <p>The color themes have been designed to work harmoniously with each other.</p>
 </div>
@@ -317,13 +319,13 @@
 </div>
 
 <hr>
-<h2 class="w3-center">Forms and Lists</h2>
+<h2 class="w3-center" id="inquiry-form">Forms and Lists</h2>
 </div>
 
 <div class="w3-row-padding">
 
 <div class="w3-half">
-<form id="inquiry-form" class="w3-container w3-card-4">
+<form class="w3-container w3-card-4">
   <h2>Input Form</h2>
   <div class="w3-section">      
     <input class="w3-input" type="text" required>
