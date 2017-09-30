@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<title>CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/theme.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<body>
+
+<!-- Side Navigation -->
+<nav class="sidebar bar-block card-2 animate-left center" style="display:none" id="mySidebar">
+  <h1 class="xxxlarge text-theme">Choose an Option:</h1>
+  <a href="w8sconsin.html" class="bar-item button">Home <i class="fa fa-home"></i></a>
+  <button class="bar-item button" onclick="close_elem()">Close <i class="fa fa-remove"></i></button>
+  <a href="#" class="bar-item button">Resume <i class="fa fa-briefcase"></i></a>
+  <a href="#" class="bar-item button">Contact <i class="fa fa-keyboard-o"></i></a>
+  <a href="#" class="bar-item button">Links <i class="fa fa-link"></i></a>
+</nav>
+
+<!-- Header -->
+<header class="container theme padding" id="myHeader">
+  <i onclick="open_elem()" class="fa fa-bars xlarge button theme"></i> 
+  <div class="center">
+  <h1 class="xxxlarge animate-bottom">FREE CODE CAMP PROJECTS</h1>
+    <div class="padding-32">
+    </div>
+  </div>
+</header>
+
+<br>
+<div class="row">
+  <div class="center">
+    <h2>Read About &amp; View Each Project</h2>
+    <p class="large">Projects are grouped by the key technology employed in each.</p>
+  </div>
+
+<br>
+<div class="padding white display-container">
+  <div class="row project-border">
+    <header class="container dark-purple border">
+      <h2>Header</h2>
+    </header>
+  </div>
+
+  <div class="row border">
+    <div class="half container blue-grey project-border">
+      <h5>Tribute Page</h5>  
+      <p>This page is a simple demonstration of HTML, CSS, and Bootstrap.</p>
+    </div>
+    <div class="half container">
+      <h5>View This Project:</h5>
+      <h5>
+        <a href="tribute-page.html" target="_blank"><i class="fa fa-html5 clickable-icon" aria-hidden="true" style="font-size:50px;padding-right:20px;"></i></a>
+        <a href="https://github.com/W8sconsin/tribute-page" target="_blank"><i class="fa fa-code clickable-icon" aria-hidden="true" style="font-size:50px;"></i></a>
+      </h5>  
+    </div>
+  </div>
+
+  <div class="row border">
+    <div class="half container blue-grey project-border">
+      <h5>half</h5>  
+      <p>The half class uses half (50%) of the screen window.</p>
+    </div>
+    <div class="half container">
+      <h5>View This Project:</h5>  
+    </div>
+  </div>
+
+  <div class="row border">
+    <div class="half container blue-grey project-border">
+      <h5>half</h5>  
+      <p>The half class uses half (50%) of the screen window.</p>
+    </div>
+    <div class="half container">
+      <h5>View This Project:</h5>  
+    </div>
+  </div>
+
+  <div class="row border">
+    <div class="half container blue-grey project-border">
+      <h5>half</h5>  
+      <p>The half class uses half (50%) of the screen window.</p>
+    </div>
+    <div class="half container">
+      <h5>View This Project:</h5>  
+    </div>
+  </div>
+
+</div>
+<br>
+
+<!-- Footer -->
+<footer class="container theme-dark padding-16">
+  <h3></h3>
+  <p>Bill Bragg &copy;2017</p>
+  <div style="position:relative;bottom:55px;" class="tooltip right">
+    <span class="text theme-light padding">Go To Top</span>    
+    <a class="text-white" href="#myHeader"><span class="xlarge">
+    <i class="fa fa-chevron-circle-up"></i></span></a>
+  </div>
+</footer>
+
+<!-- Script for Sidebar, Tabs, Accordions, Progress bars and slideshows -->
+<script src="js/w8sconsin.js"></script>
+
+</body>
+</html>
