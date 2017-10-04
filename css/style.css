@@ -213,3 +213,4 @@ footer{text-align: center;}
 .clickable-panel:hover{cursor:pointer;box-shadow:0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19)}.clickable-icon:hover{cursor:pointer;font-weight:bold;}.clickable-li:hover{cursor:pointer;font-weight:bold;color:#0A0070!important}
 .dark-purple{background-color:#0A0070!important;color:white;}
 .digital-gallery .third{padding:0 10px 25px 10px}
+.mockup .thumbnail{width:100%;}.mockup{height:200px;overflow:hidden;}
