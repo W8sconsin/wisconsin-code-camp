@@ -11,9 +11,8 @@
 <!-- Side Navigation -->
 <nav class="sidebar bar-block card-2 animate-left center" style="display:none" id="mySidebar">
   <h1 class="xxxlarge text-theme">Choose an Option:</h1>
-  <a href="w8sconsin.html" class="bar-item button">Home <i class="fa fa-home"></i></a>
+  <a href="default.htm" class="bar-item button">Home <i class="fa fa-home"></i></a>
   <button class="bar-item button" onclick="close_elem()">Close <i class="fa fa-remove"></i></button>
-  <a href="#" class="bar-item button">Resume <i class="fa fa-briefcase"></i></a>
   <a href="contact.html" class="bar-item button">Contact <i class="fa fa-keyboard-o"></i></a>
   <a href="links.html" class="bar-item button">Links <i class="fa fa-link"></i></a>
 </nav>
@@ -41,16 +40,26 @@
     <div class="container indigo">
       <h3>Mockups &amp; Wireframes</h3>
     </div>
-    <div class="container">
-    <h3 class="text-indigo">Italian Conversation Prompt App</h3>
+    <div class="clickable-panel">
+      <div class="container">
+      <h3 class="text-indigo">Italian Conversation Prompt App</h3>
+      </div>
+      <div class="content display-container">
+        <ul class="ul border-top mockup">
+          <li class="mySlides">
+            <img class="thumbnail" src="image/italian-conversation.jpg">
+          </li>
+          <li class="mySlides">
+            <img class="thumbnail" src="image/colorful-snowflakes.jpg">
+          </li>
+        </ul>
+      </div>
     </div>
-    <ul class="ul border-top mockup">
-      <li>
-        <img class="thumbnail" src="image/italian-conversation.jpg">
-        <p>The response to the animations was ridiculous</p>
-      </li>
-    </ul>
-    <div class="container indigo large"><span class="right">Next</span></div>
+
+    <div class="content display-container arrow-nav-container indigo">
+      <button class="button black display-left" onclick="plusDivs(-1)">&#10094;</button>
+      <button class="button black display-right" onclick="plusDivs(1)">&#10095;</button>
+    </div>
   </div>
   <br>
 </div>
@@ -60,16 +69,27 @@
     <div class="container theme">
       <h3>Designs &amp; Concepts</h3>
     </div>
-    <div class="container">
-    <h3 class="text-theme">Italian Conversation Prompt App</h3>
+    <div class="clickable-panel">
+      <div class="container">
+      <h3 class="text-theme">Italian Conversation Prompt App</h3>
+      </div>
+      <div class="content display-container">
+        <ul class="ul border-top mockup">
+          <li class="mySlides2">
+            <img class="thumbnail" src="image/italian-conversation.jpg">
+          </li>
+          <li class="mySlides2">
+            <img class="thumbnail" src="image/colorful-snowflakes.jpg">
+          </li>
+        </ul>
+      </div>
     </div>
-    <ul class="ul border-top mockup">
-      <li>
-        <img class="thumbnail" src="image/italian-conversation.jpg">
-        <p>The response to the animations was ridiculous</p>
-      </li>
-    </ul>
-    <div class="container theme large"><span class="right">Next</span></div>
+
+    <div class="content display-container arrow-nav-container theme">
+      <button class="button black display-left" onclick="plusDivs2(-1)">&#10094;</button>
+      <button class="button black display-right" onclick="plusDivs2(1)">&#10095;</button>
+    </div>
+  </div>
   </div>
   <br>
 </div>
@@ -92,5 +112,7 @@
 <!-- Script for Sidebar, Tabs, Accordions, Progress bars and slideshows -->
 <script src="js/w8sconsin.js"></script>
 
+<!-- Script for Carousel -->
+<script src="js/carousel.js"></script>
 </body>
 </html>

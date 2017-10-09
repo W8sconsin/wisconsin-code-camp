@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<title>Code Projects</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/theme.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<body>
+
+<!-- Side Navigation -->
+<nav class="sidebar bar-block card-2 animate-left center" style="display:none" id="mySidebar">
+  <h1 class="xxxlarge text-theme">Choose an Option:</h1>
+  <a href="default.htm" class="bar-item button">Home <i class="fa fa-home"></i></a>
+  <button class="bar-item button" onclick="close_elem()">Close <i class="fa fa-remove"></i></button>
+  <a href="contact.html" class="bar-item button">Contact <i class="fa fa-keyboard-o"></i></a>
+  <a href="links.html" class="bar-item button">Links <i class="fa fa-link"></i></a>
+</nav>
+
+<!-- Header -->
+<header class="container theme padding" id="myHeader">
+  <i onclick="open_elem()" class="fa fa-bars xlarge button theme"></i> 
+  <div class="center">
+  <h1 class="xxxlarge animate-bottom">PROJECTS</h1>
+    <div class="padding-32">
+    </div>
+  </div>
+</header>
+
+<br>
+<div class="row">
+  <div class="center">
+    <h2>Read About &amp; View Each Project</h2>
+    <p class="large">Projects are grouped by the key technology that they employ.</p>
+    <p class="large">Additional technologies are noted with projects as tags.</p>
+  </div>
+
+<br>
+<div class="padding white display-container">
+  <div class="row project-border">
+    <header class="container dark-purple border">
+      <h2>HTML/CSS</h2>
+    </header>
+  </div>
+
+  <div class="row border">
+    <div class="half container blue-grey project-border">
+      <h5>Tribute Page</h5>  
+      <p>This website is a tribute to Franco-Moroccan filmmaker and novelist Abdellah Taïa.  Use the navigation to link to content served on a single page or scroll down to find what you are looking for.  The original color scheme and lightly serifed text reflect Taïa's simple elogence and clear voice.</p>
+    </div>
+    <div class="quarter container">
+      <h5>View This Project:</h5>
+      <h5>
+        <a href="tribute-page.html" target="_blank"><i class="fa fa-html5 clickable-icon" aria-hidden="true" style="font-size:25px;padding-right:20px;"></i></a>
+        <a href="https://github.com/W8sconsin/tribute-page" target="_blank"><i class="fa fa-code clickable-icon" aria-hidden="true" style="font-size:25px;"></i></a>
+      </h5>  
+    </div>
+    <div class="quarter container project-tag-container">
+      <h5>Tags:</h5>  
+        <ul>
+          <li><span class="project-tag">Bootstrap</span></li>
+          <li><span class="project-tag">CSS</span></li>
+          <li><span class="project-tag">HTML</span></li>
+          <li><span class="project-tag">Typography</span></li>
+          <li><span class="project-tag">Color</span></li>
+        </ul>
+    </div>
+  </div>
+
+</div>
+
+<div class="padding white display-container">
+  <div class="row project-border">
+    <header class="container dark-purple border">
+      <h2>HTML/APIs/JS</h2>
+    </header>
+  </div>
+
+  <div class="row border">
+    <div class="half container blue-grey project-border">
+      <h5>Twitch Channel Browser</h5>  
+      <p>TwitchTV is a popular video streaming service for gamers, and this application allows users to view featured streamers.  The application also permits sorting to find online and offline streamers.</p>
+    </div>
+    <div class="quarter container">
+      <h5>View This Project:</h5> 
+      <h5>
+        <a href="https://github.com/W8sconsin/twitch-channel-browser" target="_blank"><i class="fa fa-code clickable-icon" aria-hidden="true" style="font-size:25px;"></i></a>
+      </h5>  
+    </div>
+    <div class="quarter container project-tag-container">
+      <h5>Tags:</h5> 
+        <ul>
+          <li><span class="project-tag">Angular</span></li>
+          <li><span class="project-tag">API</span></li>
+          <li><span class="project-tag">jQuery</span></li>
+          <li><span class="project-tag">CSS</span></li>
+          <li><span class="project-tag">HTML</span></li>
+        </ul>
+    </div>
+  </div>
+
+  <div class="row border">
+    <div class="half container blue-grey project-border">
+      <h5>Twitch Search Browser</h5>  
+      <p>This search application allows a user to find TwitchTV streamers by simply typing in a search term.  Results are displayed in a user-friendly results page.</p>
+    </div>
+    <div class="quarter container">
+      <h5>View This Project:</h5>
+      <h5>
+        <a href="https://github.com/W8sconsin/twitch-search-browser" target="_blank"><i class="fa fa-code clickable-icon" aria-hidden="true" style="font-size:25px;"></i></a>
+      </h5>   
+    </div>
+    <div class="quarter container project-tag-container">
+      <h5>Tags:</h5>  
+        <ul>
+          <li><span class="project-tag">Angular</span></li>
+          <li><span class="project-tag">API</span></li>
+          <li><span class="project-tag">jQuery</span></li>
+          <li><span class="project-tag">CSS</span></li>
+          <li><span class="project-tag">HTML</span></li>
+        </ul>
+    </div>
+  </div>
+
+  <div class="row border">
+    <div class="half container blue-grey project-border">
+      <h5>Quote Machine</h5>  
+      <p>The Quote Machine gets random quotes from an API and displays them to the user.</p>
+    </div>
+    <div class="quarter container">
+      <h5>View This Project:</h5>
+      <h5>
+        <a href="https://github.com/W8sconsin/quote-machine" target="_blank"><i class="fa fa-code clickable-icon" aria-hidden="true" style="font-size:25px;"></i></a>
+      </h5>   
+    </div>
+    <div class="quarter container project-tag-container">
+      <h5>Tags:</h5>  
+        <ul>
+          <li><span class="project-tag">API</span></li>
+          <li><span class="project-tag">jQuery</span></li>
+          <li><span class="project-tag">CSS</span></li>
+          <li><span class="project-tag">HTML</span></li>
+        </ul>
+    </div>
+  </div>
+
+</div>
+<br>
+
+<!-- Footer -->
+<footer class="container theme-dark padding-16">
+  <h3></h3>
+  <p>Bill Bragg &copy;2017</p>
+  <div style="position:relative;bottom:55px;" class="tooltip right">
+    <span class="text theme-light padding">Go To Top</span>    
+    <a class="text-white" href="#myHeader"><span class="xlarge">
+    <i class="fa fa-chevron-circle-up"></i></span></a>
+  </div>
+</footer>
+
+<!-- Script for Sidebar, Tabs, Accordions, Progress bars and slideshows -->
+<script src="js/w8sconsin.js"></script>
+
+</body>
+</html>
